@@ -1,0 +1,33 @@
+SelectionNumber = 1
+Title1 = "One Day In Your Life"
+Album1 = "Forever, Michael"
+Artist1 = "Michael Jackson"
+Writer1 = "Sam Brown III"
+Composer1 = "Renee Armand"
+Genre1 = "Soul"
+DurationSeconds1 = 238
+DateReleased1 = "1975/03/25"
+# DateReleased variable format (YYYY/MM/DD) 
+
+
+SelectionNumber = 2
+Title2 = "Rolling In The Deep"
+Album2 = "21 (Japanese Edition)"
+Artist2 = "Adele"
+Writer2 = "Paul Epworth"
+Composer2 = "Paul Epworth"
+Genre2 = "Pop"
+DurationSeconds2 = 233
+DateReleased2 = "2011"
+# DateReleased variable format (YYYY/MM/DD)
+
+
+Selection = input ("Please input song selection number (1 to 10): ")
+print ()
+print ("Selected Song Number is " + Selection)
+selected = Selection
+def title(selected):
+     song = "Title" + selected
+     return song
+a = title (selected)
+print (a)
